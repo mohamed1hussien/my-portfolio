@@ -1,109 +1,368 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<meta name="description" content="Mohamed Hussien — AI Automation Specialist building AI-powered automation systems, intelligent agents, and business workflows.">
+
+<meta name="theme-color" content="#101820">
+
+<title>Mohamed Hussien | AI Automation Specialist</title>
+
 <link rel="stylesheet" href="style.css">
+```
+
 </head>
+
 <body>
 
+```
 <!-- NAVBAR -->
-<nav>
-    <h2 class="logo" style="font-style: italic;">Port<span>folio</span></h2>
+<header class="header">
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            Port<span>folio</span>
+        </a>
 
-    <ul id="menu" >
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+        <ul id="menu" class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-</nav>
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            type="button"
+        >
+            ☰
+        </button>
+    </nav>
+</header>
+
 
 <!-- HERO -->
-<section id="home" class="hero">
-    <div class="content">
-        <h4>Hello, my name is</h4>
-        <h1 style="font-style: italic;">Mohamed <span>Hussien</span></h1>
-    
-        <h3>I'm a <span> Web Developer</span></h3>
-        <!-- SOCIAL SECTION -->
-<section id="social" class="section">
-    <div class="social-logos">
-        <a href="https://www.facebook.com/share/17Kv3e5agk/"><img src="f1.png" alt="Facebook"></a>
-        <a href="https://www.linkedin.com/in/mohamed-hussien-8002a1402"><img src="in.png" alt="LinkedIn"></a>
-        <a href="https://github.com/mohamed1hussien"><img src="g.png" alt="GitHub"></a>
-        <a href="mailto:mohamed1hussien1511@gmail.com"><img src="e.png" alt="Email"></a>
-    </div> 
-</section>
+<section id="home" class="hero section-container">
 
-        <button class="cv">Download CV</button>
+    <div class="hero-content">
+
+        <p class="hero-intro">Hello, my name is</p>
+
+        <h1>
+            Mohamed <span>Hussien</span>
+        </h1>
+
+        <h2 class="hero-title">
+            AI Automation <span>Specialist</span>
+        </h2>
+
+        <p class="hero-description">
+            Building AI-powered automation systems and intelligent
+            agents to streamline business operations, reduce manual
+            work, and improve efficiency.
+        </p>
+
+
+        <!-- SOCIAL LINKS -->
+        <div class="social-logos">
+
+            <a
+                href="https://www.facebook.com/share/17Kv3e5agk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+            >
+                <img src="f1.png" alt="Facebook">
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/mohamed-hussien-8002a1402"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+            >
+                <img src="in.png" alt="LinkedIn">
+            </a>
+
+            <a
+                href="https://github.com/mohamed1hussien"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+            >
+                <img src="g.png" alt="GitHub">
+            </a>
+
+            <a
+                href="mailto:mohamed1hussien1511@gmail.com"
+                aria-label="Email"
+            >
+                <img src="e.png" alt="Email">
+            </a>
+
+        </div>
+
+
+        <!-- CV BUTTONS -->
+        <div class="cv-buttons">
+
+            <a
+                href="files/Mohamed_Hussien_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cv-button cv-view"
+            >
+                View CV
+            </a>
+
+            <a
+                href="files/Mohamed_Hussien_CV.pdf"
+                download="Mohamed_Hussien_CV.pdf"
+                class="cv-button cv-download"
+            >
+                Download CV
+            </a>
+
+        </div>
+
     </div>
 
-     <div class="image">
-        <img src="hero.jpg">
+
+    <!-- PROFILE IMAGE -->
+    <div class="hero-image">
+        <img
+            src="p"
+            alt="Mohamed Hussien"
+            fetchpriority="high"
+        >
     </div>
-   
+
 </section>
+
 
 <!-- ABOUT -->
-<section id="about" class="section">
-    <h2  style="font-weight: bolder;">About Me</h2>
-    <p style="padding-top: 30px;">I'm a passionate <span style="color: #00f5c4;">Web Developer</span> with experience in creating responsive, modern, and user-friendly websites. I specialize in <span style="color: #00f5c4;">HTML, CSS, and JavaScript</span>, and I love turning ideas into clean, functional designs. Always eager to learn new technologies and deliver <span style="color: #00f5c4;">high-quality projects</span> </p>
+<section id="about" class="section-container section">
+
+    <h2 class="section-title">About <span>Me</span></h2>
+
+    <div class="about-content">
+
+        <p>
+            <span class="highlight">AI Automation Specialist</span>
+            with hands-on experience in building AI-powered automation
+            systems and intelligent agents using n8n, OpenAI, APIs, and
+            database integrations. Skilled in developing end-to-end
+            workflows for lead qualification, customer communication,
+            academic reporting, and business process automation.
+        </p>
+
+        <p>
+            Experienced in integrating AI capabilities with business
+            systems, automating repetitive tasks, and transforming data
+            into actionable insights. Focused on developing reliable,
+            scalable automation solutions that improve operational
+            efficiency, streamline workflows, and reduce manual effort.
+        </p>
+
+    </div>
+
 </section>
 
+
 <!-- PROJECTS -->
-<section id="projects" class="section">
-    <h2>Projects</h2>
+<section id="projects" class="section-container section">
+
+    <h2 class="section-title">My <span>Projects</span></h2>
 
     <div class="cards">
 
-        <div class="card">
-            <img src="p1.jpg" alt="">
-            <h3>Al Asriya Import & Export</h3>
-            <p></p>
-            <a href="https://alasriyaherps.com" target="_blank">View Project</a>
-        </div>
+        <!-- PROJECT 1 -->
+        <article class="card">
 
-        <div class="card">
-            <img src="p3.jpg" alt="">
-            <h3>E-commerce Website</h3>
-            <a href="https://e-commerce-orcin-pi.vercel.app/" target="_blank">View Project</a>
-        </div>
+            <img
+                src="p1.jpg"
+                alt="Al Asriya Import and Export website"
+                loading="lazy"
+            >
 
-        <div class="card">
-            <img src="p.jpg" alt="">
-            <h3>Dashboard Design</h3>
-            <a href="https://dashboard-mu-ten-56.vercel.app/" target="_blank">View Project</a>
-        </div>
+            <div class="card-content">
+
+                <h3>Al Asriya Import &amp; Export</h3>
+
+                <p>
+                    A business website designed to present company
+                    information and services.
+                </p>
+
+                <a
+                    href="https://alasriyaherps.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    View Project →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+        <article class="card">
+
+            <img
+                src="p3.jpg"
+                alt="E-commerce website"
+                loading="lazy"
+            >
+
+            <div class="card-content">
+
+                <h3>E-commerce Website</h3>
+
+                <p>
+                    An online shopping website interface focused on
+                    presenting products and providing a user-friendly
+                    browsing experience.
+                </p>
+
+                <a
+                    href="https://e-commerce-orcin-pi.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    View Project →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+        <article class="card">
+
+            <img
+                src="p.jpg"
+                alt="Dashboard design"
+                loading="lazy"
+            >
+
+            <div class="card-content">
+
+                <h3>Dashboard Design</h3>
+
+                <p>
+                    A dashboard interface designed to organize
+                    information and present data in a clear format.
+                </p>
+
+                <a
+                    href="https://dashboard-mu-ten-56.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    View Project →
+                </a>
+
+            </div>
+
+        </article>
 
     </div>
+
 </section>
+
 
 <!-- SKILLS -->
-<section id="skills" class="section">
-    <h2 style="margin-bottom: 20px;">Skills</h2>
+<section id="skills" class="section-container section">
+
+    <h2 class="section-title">My <span>Skills</span></h2>
+
     <div class="skills">
+
+        <span>n8n</span>
+        <span>AI Agents</span>
+        <span>OpenAI</span>
+        <span>REST APIs</span>
+        <span>Webhooks</span>
+        <span>API Integration</span>
+        <span>Database Integration</span>
+        <span>Workflow Automation</span>
+        <span>Python</span>
         <span>HTML</span>
         <span>CSS</span>
-        <span>JS</span>
+        <span>JavaScript</span>
         <span>React</span>
-        <span>Python</span>
-        <span>c#</span>
-        <span>c++</span>
+        <span>C++</span>
+        <span>C#</span>
+
     </div>
+
 </section>
 
+
 <!-- CONTACT -->
-<section id="contact" class="section">
-    <h2 style="margin-bottom: 20px;">Contact</h2>
-       <a href="mailto:mohamed1hussien1511@gmail.com" style="text-decoration: none;"><p  style="color: #00f5c4;"><span style="color: aliceblue;">Email:</span> mohamed1hussien1511@gmail.com</p></a>
-        <a href="https://www.linkedin.com/in/mohamed-hussien-8002a1402" style="text-decoration: none;"><p style="color: aliceblue; ">LinkedIn: <span style="color: #00f5c4;">mohamed hussien</span></p></a>
-    </section>
+<section id="contact" class="section-container section">
+
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <p class="contact-description">
+        Have a project or an automation idea? Feel free to get in touch.
+    </p>
+
+    <div class="contact-info">
+
+        <a href="mailto:mohamed1hussien1511@gmail.com">
+            <span>Email:</span>
+            mohamed1hussien1511@gmail.com
+        </a>
+
+        <a
+            href="https://www.linkedin.com/in/mohamed-hussien-8002a1402"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <span>LinkedIn:</span>
+            Mohamed Hussien
+        </a>
+
+        <a
+            href="https://github.com/mohamed1hussien"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <span>GitHub:</span>
+            mohamed1hussien
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>
+        &copy; <span id="year"></span> Mohamed Hussien.
+        All rights reserved.
+    </p>
+</footer>
+
 
 <script src="script.js"></script>
+```
+
 </body>
 </html>
